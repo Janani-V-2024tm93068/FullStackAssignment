@@ -1,0 +1,24 @@
+{
+  "name": "full_stack_assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
